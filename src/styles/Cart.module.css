@@ -1,0 +1,78 @@
+.container {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  margin: 0 0 20px 0;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.empty {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+}
+
+.itemName {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.itemQuantity {
+  color: #6b7280;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.itemPrice {
+  font-weight: bold;
+  color: #d62828;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #e5e7eb;
+  padding-top: 16px;
+}
+
+.total {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.clearButton {
+  background-color: #e5e7eb;
+  color: #374151;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background-color: #d1d5db;
+}

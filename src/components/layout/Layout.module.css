@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #555555;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.active {
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+}
+
+.loginButton {
+  text-decoration: none;
+  background-color: #d62828;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.loginActive {
+  background-color: #1f2937;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
