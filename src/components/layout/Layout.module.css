@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #2a7952;
+  padding: 1rem 2rem;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navItem {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navItem:hover {
+  color: #f59e0b;
+}
+
+.cartItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.cartItem:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.badge {
+  background-color: #ffffff;
+  color: #2a7952;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+}
+
+.adminItem {
+  color: #ffffff;
+  background-color: #ff8800;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.adminItem:hover {
+  background-color: #b45309;
+}

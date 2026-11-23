@@ -1,0 +1,224 @@
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.statCard {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.statValue {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.statValueGreen {
+  color: #2a7952;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.filterGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filterBtn {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #374151;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.activeFilter {
+  background-color: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+}
+
+.refreshBtn {
+  padding: 0.45rem 0.9rem;
+  border: 1px solid #d1d5db;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ordersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+.orderCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.orderTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.orderMeta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0.2rem 0 0 0;
+}
+
+.badge {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.badgePendiente {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badgePreparacion {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.badgeListo {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badgeEntregado {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.notesBox {
+  background-color: #fffbeb;
+  border-left: 3px solid #f59e0b;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  color: #78350f;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+}
+
+.itemsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.92rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed #f3f4f6;
+  color: #374151;
+}
+
+.orderFooter {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 0.75rem;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.actionBtn {
+  width: 100%;
+  padding: 0.65rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ea580c;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.actionBtn:hover {
+  background-color: #c2410c;
+}
+
+.actionBtnReady {
+  background-color: #2a7952;
+}
+
+.actionBtnReady:hover {
+  background-color: #216041;
+}
+
+.actionBtn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.errorBox {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.emptyText {
+  text-align: center;
+  color: #6b7280;
+  padding: 2rem 0;
+}
